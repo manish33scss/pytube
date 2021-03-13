@@ -26,7 +26,7 @@ for i in tqdm(var1):
     except ex.VideoUnavailable:
         print("cant download")
     else:
-        print("downloading : {i} ")
+        #print("downloading : {i} ")
         audio = x.streams.get_audio_only()
         audio.download(r"C:\Users\ASUS\music")
 for fi in glob.glob("*.mp4"):
